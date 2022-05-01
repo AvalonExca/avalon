@@ -16,7 +16,7 @@ class list{
                 console.log(goods);
                 html +=`<li>
                 <div class="i-pic limit">
-                    <img src="${goods.img_big_logo}" />
+                    <a href="./introduction.html"><img src="${goods.img_big_logo}" /></a>
                     <p class="title fl">${goods.title}</p>
                     <p class="price fl">
                         <b>¥</b>
